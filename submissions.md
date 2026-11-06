@@ -3,7 +3,7 @@
 ## Copilot suggestion screenshot
 
 ![Accepted Copilot suggestion](copilot-suggestions.png)
-No I did not accept the suggestions. Working tree clean.
+
 
 ## What the app does
 
