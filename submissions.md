@@ -16,4 +16,5 @@ TagNormalizer.php is deliberately unimplemented. Every method throws, because it
 
 ## Oddity found
 
-The tags:merge --dry-run command doesn't exist yet. routes/console.php contains only "No scheduled commands yet." docblock reads it as if it already exists.
+Seeded visit dates can be earlier than the date the bookmark was added
+The factory picks visited_at at random from the last 60 days (BookmarkFactory.php:20), regardless of created_at. The seeder sets created_at between 2 and 30 days ago. So the page can show things like "added 2 days ago · visited 1 month ago."
